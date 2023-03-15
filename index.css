@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar nav li a{
+list-style: none;
+text-decoration: none;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.img4 img{
+    height: 400px;
+    width: 550px;
+}
+.img3 img{
+    height: 400px;
+    width: 550px;   
+}
+.img2 img{
+    height: 400px;
+    width: 550px;
+}
+.head ul li a{
+    text-decoration: none;
+    color: white;
+   font-size: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head ul  {
+display: flex;
+list-style: none;
+gap: 30px;
+float: right;
+padding-top: 15px;
+padding-right: 30px;
+}
+
+.head ul li:hover{
+    background-color: red;
+    padding: 5px;
+}
+.log img{
+    height: 60px;
+    width: 80px;
+    padding-left: 30px;
+    padding: 6px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 0 3px;
+    background-color: black;
+}
+.al{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    
+}
+.ph{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
