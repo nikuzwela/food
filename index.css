@@ -40,13 +40,13 @@ text-decoration: none;
     background-color: beige;background-size: cover;
 }
 .form{
-    height: 600px;width: 380px;position: relative;margin: 6% auto;background: pink;padding: 5px;
+    height: 600px;width: 380px;position: relative;margin: 6% auto;background: black;padding: 5px;color: white;
 }
 .box{
     width: 220px;margin: 35px auto;position: relative;box-shadow: 0 0 20px 9px crimson;border-radius: 30px;
 }
 .logini{
-    width: 320px; height: 420px;background-color:pink;color: black;top: 50%; left: 50%;
+    width: 320px; height: 420px;background-color:black;color: white;top: 50%; left: 50%;
     position: absolute; transform: translate(-50% ,-50%);box-sizing: border-box;
     padding: 70px 30px;
    ;
@@ -105,14 +105,14 @@ float: right;
 padding-top: 15px;
 padding-right: 30px;
 }
-
 .head ul li:hover{
-    background-color: red;
+    background-color:  rgb(196, 28, 56) ;
     padding: 5px;
+    border-radius: 10px;
 }
 .log img{
-    height: 60px;
-    width: 80px;
+    height: 70px;
+    width: 100px;
     margin-left: 25px;
     padding-left: 60px;
     padding: 6px;
@@ -150,14 +150,27 @@ padding-right: 30px;
     padding-left:  70px;
     flex-wrap: wrap;
     
-  
 }
+#product-detail a:hover{
+    background-color:white;
+
+}
+
 #product{
-    background-color:pink;
+    background-color:black;
    width: 22%;
   padding: 20px;
   border-radius: 20px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
 }
+#product:hover{
+    background-color:  rgb(196, 28, 56) ;
+  
+}
+
+
 .pt img{
     height: 200px;
     width: 230px;
@@ -177,6 +190,7 @@ padding-right: 30px;
 }
 
 .dc{
+   
     display: flex;
     gap: 25px;
      width: 100%;
@@ -196,8 +210,15 @@ margin-bottom: 50px;
     padding: 10px 30px;cursor: pointer;background: transparent;border: 0;outline: none;position: relative;
 }
 #btn{
-    top: 0;left: 0;position: absolute;width: 110px;transition: 0.5s;height: 100%;background: rgb(196, 28, 56);border-radius: 30px;
+    top: 0;left: 0;position: absolute;width: 110px;transition: 0.5s;height: 100%;
+    background:linear-gradient(to right,rgb(196, 28, 56),affad06);border-radius: 30px;
 }
 .icons{
     margin: 40px auto;text-align: center;font-size: 25px;color: rgb(196, 28, 56) ;cursor: pointer;
+}
+.bu a{
+text-decoration: none;color: white;background-color:rgb(196, 28, 56) ;padding: 10px;border-radius: 10px;
+}
+.bu a:hover{
+    background-color: black;color:white;
 }
