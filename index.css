@@ -34,42 +34,6 @@ text-decoration: none;
     background-size: cover;
 }
 
-.hero{
-  background-image: url(https://images.pexels.com/photos/1358389/pexels-photo-1358389.jpeg?auto=compress&cs=tinysrgb&w=600);
-    width: 100%;position: absolute;
-    background-color: beige;background-size: cover;
-}
-.form{
-    height: 600px;width: 380px;position: relative;margin: 6% auto;background: black;padding: 5px;color: white;
-}
-.box{
-    width: 220px;margin: 35px auto;position: relative;box-shadow: 0 0 20px 9px crimson;border-radius: 30px;
-}
-.logini{
-    width: 320px; height: 420px;background-color:black;color: white;top: 50%; left: 50%;
-    position: absolute; transform: translate(-50% ,-50%);box-sizing: border-box;
-    padding: 70px 30px;
-   ;
-}
-.logini p{
-    font-weight: bold;
-}
-
-.logini input{
-    width: 100%;
-    margin-bottom: 20px;
-    height: 30px;
-}
-.logini a{
-    text-decoration: none;
-    font-size: 12px;
-    line-height: 20px;
-    color: rgb(128, 125, 125) ;;
-}
-.logini a:hover{
-    color: white;
-}
-
 .ig{
     width: 100px;
     height: 100px;
@@ -206,19 +170,102 @@ margin-bottom: 50px;
 .in {
     padding-bottom: 30px;
 }
+
+.bu a{
+text-decoration: none;color: white;background-color:rgb(196, 28, 56) ;padding: 10px;border-radius: 10px;
+font-weight: 900;
+}
+.bu a:hover{
+    color: black;
+}
+.order{
+    padding-top:100px;font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: bold;
+}
+.order ul li a{
+    text-decoration: none;color: black;
+}
+.order ul{
+    display: flex;gap: 40px;list-style: none;margin-left: 25%;color: black;background-color: rgb(196, 28, 56);
+    padding: 10px;
+}
+
+.vd{
+    position: absolute;z-index: -1;top: 100px;margin-left: 20px;border-radius: 20px;
+}
+.do{
+    position: absolute;z-index: -1;margin-left: 20px;border-radius: 20px;  
+}
+.de{
+    position: absolute;z-index: -1;;border-radius: 20px;  right: 20px;top: 100px;
+}
+.gin{
+float: right; margin-top: -750px;margin-right: 170px;
+}
+.gi{
+    position: absolute;z-index: -1;;border-radius: 20px;  right: 20px;  margin-top: -40px;
+}
+.lun{
+    float: right; margin-top: -300px;margin-right: 170px; 
+}
+.co{
+    position: absolute;z-index: -1;;border-radius: 20px;  left: 20px;  margin-top: -60px;   
+}
+.tea{
+    float: right; margin-top: 110px;margin-right: 170px;  
+}
+.fr{
+    position: absolute;z-index: -1;;border-radius: 20px; margin-left: 20px;  margin-top: -60px;
+}
+.fruit{
+    float: right; margin-top: 110px;margin-right: 170px;  
+}
+
+
+
+.form{
+    width: 380px;height: 500px;position: relative;margin: 6% auto;background: white;padding: 5px;
+}
+.box{
+    width: 220px;margin: 35px auto;position: relative;box-shadow: 0 0 20px 9px #ff61241f;border-radius: 30px;
+}
 .toggle{
     padding: 10px 30px;cursor: pointer;background: transparent;border: 0;outline: none;position: relative;
 }
 #btn{
-    top: 0;left: 0;position: absolute;width: 110px;transition: 0.5s;height: 100%;
-    background:linear-gradient(to right,rgb(196, 28, 56),affad06);border-radius: 30px;
+    top: 0;position: absolute;width: 110px;height: 100%;transition: .5s;
+    left: 0;background: linear-gradient(to right,#ff105f, black);border-radius: 30px;
 }
-.icons{
-    margin: 40px auto;text-align: center;font-size: 25px;color: rgb(196, 28, 56) ;cursor: pointer;
+.inputform{
+    top: 100px;position: absolute;width: 280px;transition: .05s;
 }
-.bu a{
-text-decoration: none;color: white;background-color:rgb(196, 28, 56) ;padding: 10px;border-radius: 10px;
+.inputfield{
+    width: 100%;padding: 10px 0; margin: 5px 0;border-top: 0;border-left: 0;border-right: 0;
+    border-bottom: 1px solid #999;outline: none;background: transparent;
 }
-.bu a:hover{
-    background-color: black;color:white;
+.submitbo{
+    width: 85%;padding: 10px 30px;cursor: pointer;display: block;margin: auto;
+    background: linear-gradient(to right,#ff105f, black);border: 0;outline: none;border-radius: 30px;
+    
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: #777;font-size: 12px;bottom: 68px;position: absolute;
+}
+select{
+    width: 100%;padding: 10px 0; margin: 5px 0;border-top: 0;border-left: 0;border-right: 0;
+    border-bottom: 1px solid #999;outline: none;background: transparent; 
+}
+#login{
+    left: 50px;
+}
+#register{
+    left: 50px;
+}
+.hero{
+    background-image: url(https://images.pexels.com/photos/7534342/pexels-photo-7534342.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position:center;
+    padding-top: 40px;padding-bottom: 5px;
 }

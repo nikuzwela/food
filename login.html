@@ -9,7 +9,7 @@
     <link rel="icon" href="./image/Screenshot 2023-03-20 095616.png">
 </head>
 <body>
-    <header class="head" style="position: fixed;">
+    <header class="head" style="position: fixed;z-index: 1;">
         <div class="log"> <img src="./image/Screenshot_2023-03-20_095616-removebg-preview.png" alt="im"></div>
      <div class="te"><ul style="text-decoration: none;">
         <li><a  href="home.html">Home</a></li>
@@ -19,21 +19,23 @@
         <li><a href="register.html">Register</a></li>
         <li><a href="login.html">Login</a></li>
     </ul></div>
-      </header> 
-      <div class="login">
-        <div class="logini">
-            
-            <h1 style="text-align: center; padding: 0 0 20px;">Login Here</h1>
-            <form action="">
-            
-                <input type="text" placeholder="Enter Username" style="border: none;border-bottom: 1px solid #fff;font-size: 16px;background: transparent;outline: none;height: 40px;color:rgb(128, 125, 125)">
-    
-                <input type="text" placeholder="Enter Password" style="border: none;border-bottom: 1px solid #fff;font-size: 16px;background: transparent;outline: none;height: 40px;color:rgb(128, 125, 125) ">
-                <input type="submit" value="Login" style="border: none;outline: none;cursor: pointer; ;font-size: 18px;border-radius: 20px;height: 40px;background: rgb(196, 28, 56) ;color: #fff;">
-                <a href="#">Lost your Password</a><br>
-                <a href="register.html">Don't have an account?</a>
+      </header>
+
+      <div class="hero">
+        <div class="form">
+            <div class="box">
+                <div id="btn"></div>
+                <button type="submit" class="toggle"><a href="login.html" style="text-decoration: none;color: black;">Login</a></button>
+                <button type="submit" class="toggle"><a href="register.html" style="text-decoration: none;color: black;">Register</a></button>
+            </div>
+            <form class="inputform" id="login" onclick="Login()">
+                <input type="text" class="inputfield" placeholder="User name" required>
+                <input type="text" class="inputfield" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>Remember password</span>
+                <button type="submit" class="submitbo">Login</button>
+                
             </form>
-        </div>
-      </div>
+           </div>
+     </div>
 </body>
 </html>
