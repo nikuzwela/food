@@ -172,7 +172,7 @@ margin-bottom: 50px;
 }
 
 .bu a{
-text-decoration: none;color: white;background-color:rgb(196, 28, 56) ;padding: 10px;border-radius: 10px;
+text-decoration: none;color: white;background-color:rgb(196, 28, 56) ;padding: 10px;border-radius: 20px;
 font-weight: 900;
 }
 .bu a:hover{
@@ -272,17 +272,49 @@ select{
 .drink{
     display: flex;gap: 50px; margin-left: 150px;padding-top: 30px;
 }
-
+.fast{
+    display: flex;gap: 50px; margin-left: 150px;padding-top: 30px; 
+}
+.ti a{
+text-decoration: none;color:white;background-color: rgb(196, 28, 56) ;padding: 10px;
+border-radius: 20px;margin-left: 10px;
+}
+.ti{
+    display: flex;font-weight: bold;
+}
+.ti .bo{
+width: 300px;padding-left: -90px;
+}
+.ti .bi{
+    width: 200px;padding-left: -10px;
+}
+.ti a:hover{
+    background-color: black;color: white;
+}
+.on{
+    background-color:rgb(196, 28, 56) ;padding: 10px;width: 400px;
+    border: none;border-radius: 20px;cursor: pointer;font-size: 25px;font-weight: bold;
+}
+.on:hover{
+    background-color: white;color: black;
+}
 
 @media screen and (max-width: 800px) {
     .head ul{
         display:flex;gap: 40px;margin-right: 300px;
     }
     .body{
-        margin-left: 50px;
+        margin-left: 50px;padding-right: 30px;
     }
+    .content{
+        width: 50%;flex-wrap: wrap;
+    }
+   .ti {
+    display: block;line-height: 50px;
+   }
+    
     .image img{
-        padding-top: 140px;width: 360px;height: 500px;margin-right:10px ;
+        padding-top: 140px;width: 360px;height: 450px;margin-right:5px ;padding-left: 30px;
     }
    .m{
     height: 100vh;
